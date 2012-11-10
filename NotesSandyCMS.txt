@@ -21,7 +21,7 @@ rails g scaffold connections name:string marital_status:string sex:string dob:da
 
 note: we are organizing our tables around the disruption
 
-rails g scaffold tempest urgency:integer occupancy:integer power:boolean heat:boolean hotWater:boolean meals:integer dietRestrictions:string flashlight:integer batteries:integer blankets:integer personal:sting cleanUp:boolean foodDistro:boolean kitchen:boolean nameLast:string nameFirst:string zip:integer streetCode:integer phone:integer dateTime:datetime results:string revisit:boolean complete:boolean 
+rails g scaffold tempest urgency:integer occupancy:integer power:boolean heat:boolean hotWater:boolean meals:integer dietRestrictions:string flashlight:integer batteries:integer blankets:integer personal:string cleanUp:boolean foodDistro:boolean kitchen:boolean nameLast:string nameFirst:string zip:integer streetCode:integer phone:integer dateTime:datetime results:string revisit:boolean complete:boolean 
 
 
 
