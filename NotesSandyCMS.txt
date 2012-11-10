@@ -1,5 +1,6 @@
 ------------------------------------------------------------------------------------------
-
+http://localhost:3000/tempets
+------------------------------------------------------------------------------------------
 # return to starting point of previous commit
 git reset --hard 
 
@@ -21,6 +22,7 @@ rails g scaffold connections name:string marital_status:string sex:string dob:da
 note: we are organizing our tables around the disruption
 
 rails g scaffold tempest urgency:integer occupancy:integer power:boolean heat:boolean hotWater:boolean meals:integer dietRestrictions:string flashlight:integer batteries:integer blankets:integer personal:sting cleanUp:boolean foodDistro:boolean kitchen:boolean nameLast:string nameFirst:string zip:integer streetCode:integer phone:integer dateTime:datetime results:string revisit:boolean complete:boolean 
+
 
 
 CMS
@@ -64,3 +66,12 @@ off line - ????
 
 BlackberryEmail like and cue up the responces 
 
+=============================================================================================
+ tempests GET    /tempests(.:format)          tempests#index
+             POST   /tempests(.:format)          tempests#create
+ new_tempest GET    /tempests/new(.:format)      tempests#new
+edit_tempest GET    /tempests/:id/edit(.:format) tempests#edit
+     tempest GET    /tempests/:id(.:format)      tempests#show
+             PUT    /tempests/:id(.:format)      tempests#update
+             DELETE /tempests/:id(.:format)      tempests#destroy
+    refinery        /                            Refinery::Core::Engine
