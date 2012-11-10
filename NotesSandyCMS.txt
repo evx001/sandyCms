@@ -1,3 +1,25 @@
+------------------------------------------------------------------------------------------
+
+# return to starting point of previous commit
+git reset --hard 
+
+# test clean the working dir
+git clean -d -x -n
+
+# cleaning the working dir
+git clean -d -x -f
+
+# forced update
+git push --force 
+
+------------------------------------------------------------------------------------------
+rails g scaffold connections name:string marital_status:string sex:string dob:date age:integer language_ethnicity:string race:string address:string county:string cd:integer
+------------------------------------------------------------------------------------------
+note: we are organizing our tables around the disruption
+
+rails g scaffold tempest urgency:integer occupancy:integer power:boolean heat:boolean hotWater:boolean meals:integer dietRestrictions:string flashlight:integer batteries:integer blankets:integer personal:sting cleanUp:boolean foodDistro:boolean kitchen:boolean nameLast:string nameFirst:string zip:integer streetCode:integer phone:integer dateTime:datetime results:string revisit:boolean complete:boolean 
+
+
 CMS
 		login:
 		users:
