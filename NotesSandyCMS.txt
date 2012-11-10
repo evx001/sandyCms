@@ -1,0 +1,41 @@
+CMS
+		login:
+		users:
+
+		Urgency 			#integer
+		
+		occupancy			#integer 			
+
+		Utilities 
+			Power   		:boolean
+			heat 			:boolean
+			hot water 		:boolean
+
+		Supplies 
+			food/meals		:integer
+			dietary issues	:string 
+			flashlight		:integer
+			batteries 		:integer
+			Blankets		:integer
+			personal 		:string
+
+
+		Labor 
+			CleanUp 		 	:boolean
+			Distro Food/supp 	:boolean
+			cooking/kitchen		:boolean
+
+		Names				:text 
+		Address				:text
+		zip					:integer
+		pnone				:integer
+		time/date 			:date:time
+
+		results 			:string	
+		revisit				:boolean
+		completion 			:boolean
+
+off line - ???? 
+
+BlackberryEmail like and cue up the responces 
+
